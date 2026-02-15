@@ -1,8 +1,32 @@
 {
   "name": "lightning-simulator",
-  "private": true,
-  "version": "0.0.0",
+  "private": false,
+  "version": "1.0.0",
   "type": "module",
+  "description": "Interactive Lightning Network Payment Channel Simulator - Educational tool demonstrating Bitcoin Layer 2 payment channels, HTLC routing, and network topology",
+  "author": "Git-brintsi20",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Git-brintsi20/lightning-simulator.git"
+  },
+  "keywords": [
+    "lightning-network",
+    "bitcoin",
+    "payment-channels",
+    "htlc",
+    "blockchain",
+    "cryptocurrency",
+    "layer2",
+    "educational",
+    "simulator",
+    "react",
+    "typescript"
+  ],
+  "homepage": "https://github.com/Git-brintsi20/lightning-simulator#readme",
+  "bugs": {
+    "url": "https://github.com/Git-brintsi20/lightning-simulator/issues"
+  },
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
